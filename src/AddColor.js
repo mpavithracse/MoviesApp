@@ -17,15 +17,4 @@ export function AddColor() {
   );
 }
 
-function AddMovie() {
-    const [name,setName] = useState("");
-    const [poster,setPoster] = useState("");
-    const [summary, setSummary] = useState("");
-    const [rating, setRating] = useState("");
 
-    return(
-        <div>
-            <input type ="text" placeholder= "Enter Movie name"/>
-        </div>
-    )
-}
